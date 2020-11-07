@@ -26,6 +26,10 @@ function main() {
         {" "}
         <Link href="contact-us/">Contact Us</Link>
       </h3>
+      <h3>
+        {" "}
+        <Link href="newsletter/">Subscribe to our newsletter</Link>
+      </h3>
     </Home>
   );
 }

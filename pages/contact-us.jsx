@@ -20,10 +20,10 @@ function contactUs() {
       >
         Loading…
       </iframe>
-      <h4>Or</h4>
+      <h4>If Urgent</h4>
       <p>
-        Just shoot an email{" "}
-        <a href="mailto:mohammedmubashirhasan@gmail.com">here</a>
+        Just shoot email to{" "}
+        <a href="mailto:mohammedmubashirhasan@gmail.com">founder</a>
       </p>
       <h3>
         {" "}
