@@ -14,8 +14,8 @@ export default function Home() {
           Hello, I'm Mohammed Mubashir Hasan, a Full-Stack Web &React developer.
         </p>
         <p>
-          (This is a sample website - you’ll be building a site like this on{" "}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
+          I am the founder and creator of{" "}
+          <a href="https://nextjs.org/learn">Short Shortnner</a>.)
         </p>
       </section>
     </Layout>
