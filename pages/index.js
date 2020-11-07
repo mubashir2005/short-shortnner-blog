@@ -17,6 +17,12 @@ export default function Home() {
           I am the founder and creator of{" "}
           <a href="https://nextjs.org/learn">Short Shortnner</a>
         </p>
+        <h4>
+          Go to{" "}
+          <a href="https://short-shortnner-blog.vercel.app/main">
+            short shortnner blog
+          </a>
+        </h4>
       </section>
     </Layout>
   );
