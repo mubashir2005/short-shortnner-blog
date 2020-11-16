@@ -64,7 +64,7 @@ export default function Home({ children, home }) {
       <main>{children}</main>
       {!home && (
         <div className={styles.backToHome}>
-          <Link href="main/">
+          <Link href="/">
             <a>← See our other blogs</a>
           </Link>
           <p>

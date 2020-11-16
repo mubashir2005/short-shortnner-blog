@@ -1,29 +1,45 @@
+import React from "react";
 import Head from "next/head";
-import Layout, { siteTitle } from "../components/layout";
-import utilStyles from "../styles/utils.module.css";
+import Home from "../components/home";
+import Link from "next/link";
 
-export default function Home() {
+function main() {
   return (
-    <Layout home>
+    <Home>
       <Head>
-        <title>{siteTitle}</title>
+        <title>Short Shortnner Blog</title>
       </Head>
-      <section className={utilStyles.headingMd}>
-        <p>
-          {" "}
-          Hello, I'm Mohammed Mubashir Hasan, a Full-Stack Web &React developer.
-        </p>
-        <p>
-          I am the founder and creator of{" "}
-          <a href="https://nextjs.org/learn">Short Shortnner</a>
-        </p>
-        <h4>
-          Go to{" "}
-          <a href="https://short-shortnner-blog.vercel.app/main">
-            short shortnner blog
-          </a>
-        </h4>
-      </section>
-    </Layout>
+      <h3>Welcome to the place on web where you can find our blogs</h3>
+      <h4>We are Short Shortnner</h4>
+      <h1>Our Blogs</h1>
+      <h3>
+        {" "}
+        <Link href="short-shortnner/">Introducing Short Shortnner</Link>
+      </h3>
+
+      <h3>
+        {" "}
+        <Link href="pricing/">Short Shortnner Pricing</Link>
+      </h3>
+
+      <h3>
+        {" "}
+        <Link href="contact-us/">Contact Us</Link>
+      </h3>
+      <h3>
+        {" "}
+        <Link href="newsletter/">Subscribe to our newsletter</Link>
+      </h3>
+      <h3>
+        {" "}
+        <Link href="donation/">Working on our donation page</Link>
+      </h3>
+      <h3>
+        {" "}
+        <Link href="account/">What about my account?</Link>
+      </h3>
+    </Home>
   );
 }
+
+export default main;
