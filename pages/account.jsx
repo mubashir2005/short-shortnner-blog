@@ -1,5 +1,5 @@
 import React from "react";
-import Home from "./mubashir";
+import Home from "../components/home";
 
 export default function componentName() {
   return (
