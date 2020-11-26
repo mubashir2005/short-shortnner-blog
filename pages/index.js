@@ -8,6 +8,16 @@ function main() {
     <Home>
       <Head>
         <title>Short Shortnner Blog</title>
+
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-E8TDR0NNZV"
+        ></script>
+        <script>
+          window.dataLayer = window.dataLayer || []; function gtag()
+          {dataLayer.push(arguments)}
+          gtag('js', new Date()); gtag('config', 'G-E8TDR0NNZV');
+        </script>
       </Head>
       <h3>Welcome to the place on web where you can find our blogs</h3>
       <h4>We are Short Shortnner</h4>

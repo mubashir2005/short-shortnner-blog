@@ -7,6 +7,15 @@ function newsletter() {
     <Home>
       <Head>
         <title>Newsletter</title>
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-E8TDR0NNZV"
+        ></script>
+        <script>
+          window.dataLayer = window.dataLayer || []; function gtag()
+          {dataLayer.push(arguments)}
+          gtag('js', new Date()); gtag('config', 'G-E8TDR0NNZV');
+        </script>
       </Head>
 
       <h3>Sign up for our Newsletter</h3>
