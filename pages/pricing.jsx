@@ -7,15 +7,6 @@ function pricing() {
     <Home>
       <Head>
         <title>Pricing</title>
-        <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-E8TDR0NNZV"
-        ></script>
-        <script>
-          window.dataLayer = window.dataLayer || []; function gtag()
-          {dataLayer.push(arguments)}
-          gtag('js', new Date()); gtag('config', 'G-E8TDR0NNZV');
-        </script>
       </Head>
       <h1>Pricing of Short Shortnner</h1>
       <h2>Free forever</h2>

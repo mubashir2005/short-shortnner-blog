@@ -7,36 +7,19 @@ function contactUs() {
     <Home>
       <Head>
         <title>Contact Us</title>
-        <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-E8TDR0NNZV"
-        ></script>
-        <script>
-          window.dataLayer = window.dataLayer || []; function gtag()
-          {dataLayer.push(arguments)}
-          gtag('js', new Date()); gtag('config', 'G-E8TDR0NNZV');
-        </script>
+       
       </Head>
       <h1>Contact Us </h1>
 
-      <iframe
-        src="https://docs.google.com/forms/d/e/1FAIpQLSfX-q-BsBnW8nQQLrI-uVxVBrOU1DJf5A0601j4mygX5qJDiw/viewform?embedded=true"
-        width="640"
-        height="1204"
-        frameborder="0"
-        marginheight="0"
-        marginwidth="0"
-      >
-        Loading…
-      </iframe>
-      <h4>If Urgent</h4>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdLcNZQHmdd2BEVNQvdWQI2dZTmZMXqk0t2kjUUWJ-FJIlIVg/viewform?embedded=true" width="640" height="1172" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+      <h4> Urgent?</h4>
       <p>
         Just shoot email to{" "}
-        <a href="mailto:mohammedmubashirhasan@gmail.com">founder</a>
+        <a href="mailto:mubashirhasan716@gmail.com">founder</a>
       </p>
       <h3>
         {" "}
-        <a href="https://short-shortnner.vercel.app/">Back to Site</a>
+        <a href="https://short-nner.vercel.app/">Back to Site</a>
       </h3>
     </Home>
   );

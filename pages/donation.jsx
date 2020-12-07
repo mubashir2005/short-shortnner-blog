@@ -9,15 +9,6 @@ export default function componentName() {
       <Head>
         <title>Donations Page coming soon</title>
 
-        <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-E8TDR0NNZV"
-        ></script>
-        <script>
-          window.dataLayer = window.dataLayer || []; function gtag()
-          {dataLayer.push(arguments)}
-          gtag('js', new Date()); gtag('config', 'G-E8TDR0NNZV');
-        </script>
       </Head>
       <h3>We're not accepting donations right now.</h3>
       <h4>But will accept soon.</h4>

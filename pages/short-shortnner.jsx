@@ -7,15 +7,6 @@ function ShortShortner() {
     <Home>
       <Head>
         <title>About Short Shortnner</title>
-        <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-E8TDR0NNZV"
-        ></script>
-        <script>
-          window.dataLayer = window.dataLayer || []; function gtag()
-          {dataLayer.push(arguments)}
-          gtag('js', new Date()); gtag('config', 'G-E8TDR0NNZV');
-        </script>
       </Head>
       <h1>Introducing Short Shortnner</h1>
       <p>

@@ -8,19 +8,10 @@ function main() {
     <Home>
       <Head>
         <title>Short Shortnner Blog</title>
-
-        <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-E8TDR0NNZV"
-        ></script>
-        <script>
-          window.dataLayer = window.dataLayer || []; function gtag()
-          {dataLayer.push(arguments)}
-          gtag('js', new Date()); gtag('config', 'G-E8TDR0NNZV');
-        </script>
+         <link rel="icon" href="./logo.svg" />
       </Head>
       <h3>Welcome to the place on web where you can find our blogs</h3>
-      <h4>We are Short Shortnner</h4>
+      <h4>A product of Innovo</h4>
       <h1>Our Blogs</h1>
       <h3>
         {" "}
@@ -38,16 +29,17 @@ function main() {
       </h3>
       <h3>
         {" "}
+        <Link href="feedback/">Give Us Feedback</Link>
+      </h3>
+      <h3>
+        {" "}
         <Link href="newsletter/">Subscribe to our newsletter</Link>
       </h3>
       <h3>
         {" "}
         <Link href="donation/">Working on our donation page</Link>
       </h3>
-      <h3>
-        {" "}
-        <Link href="account/">What about my account?</Link>
-      </h3>
+
     </Home>
   );
 }
