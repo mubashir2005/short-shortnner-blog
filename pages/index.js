@@ -2,13 +2,14 @@ import React from "react";
 import Head from "next/head";
 import Home from "../components/home";
 import Link from "next/link";
+import Logo from "./logo.svg"
 
 function main() {
   return (
     <Home>
       <Head>
         <title>Short Shortnner Blog</title>
-         <link rel="icon" href="./logo.svg" />
+         <link rel="icon" href={Logo}/>
       </Head>
       <h3>Welcome to the place on web where you can find our blogs</h3>
       <h4>A product of Innovo</h4>
