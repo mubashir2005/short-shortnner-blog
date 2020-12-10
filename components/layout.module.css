@@ -5,6 +5,7 @@
   padding: 0 1rem;
   margin: 3rem auto 6rem;
   font-family: "Space Grotesk", sans-serif;
+
 }
 
 .header {
@@ -16,11 +17,13 @@
 .headerImage {
   width: 6rem;
   height: 6rem;
+
 }
 
 .headerHomeImage {
   width: 8rem;
   height: 8rem;
+
 }
 
 .backToHome {

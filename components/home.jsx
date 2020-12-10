@@ -1,11 +1,10 @@
+import React from "react";
 import Head from "next/head";
 import styles from "./layout.module.css";
 import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
 import Image from "next/image";
-import React from "react";
-import Brand from './brand.png'
-
+import Brand from "./brand.gif";
 
 const name = "Short Shortnner";
 export const siteTitle = "Blog Home";
@@ -28,18 +27,13 @@ export default function Home({ children, home }) {
       <header className={styles.header}>
         {home ? (
           <>
-
-            <Image
-              src={Brand}
-              alt={name}
-            />
+            <Image src={Brand} alt={name} height={"300px"} width={"400px"} />
 
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
           </>
         ) : (
           <>
-
-              {/* <a>
+            {/* <a>
                <Image
               src={logo}
               alt={name}
@@ -49,13 +43,10 @@ export default function Home({ children, home }) {
               </a>
                */}
 
-
             <h2 className={utilStyles.headingLg}>
-              <Link href="main/">
-                <a className={utilStyles.colorInherit}>{name}</a>
-                  <Image src={Brand}></Image>
-              </Link>
-
+              <a className={utilStyles.colorInherit} href={"#"}>
+                <img src={Brand} height={"300px"} width={"400px"} />
+              </a>
             </h2>
           </>
         )}
