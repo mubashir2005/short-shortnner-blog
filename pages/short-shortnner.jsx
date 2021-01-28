@@ -2,7 +2,7 @@ import React from "react";
 import Head from "next/head";
 import Home from "../components/home";
 
-function ShortShortner() {
+function Short Shortnner() {
   return (
     <Home>
       <Head>
