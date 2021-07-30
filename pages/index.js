@@ -9,6 +9,7 @@ function main() {
             <Head>
                 <title> Short Shortnner Blog </title>{" "}
             </Head>{" "}
+            <img src={'https://shortnner.tech/9EmJ7KUB8'}/>
             <h3> Welcome to the place on web where you can find our blogs </h3>{" "}
             <h4> A product of Hasan </h4> <h1> Our Blogs </h1>{" "}
             <h3>
