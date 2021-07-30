@@ -7,12 +7,12 @@ export default function componentName() {
   return (
     <Home>
       <Head>
-        <title>Donations Page coming soon</title>
+        <title>Coming soon</title>
 
       </Head>
-      <h3>We're not accepting donations right now.</h3>
-      <h4>But will accept soon.</h4>
-      <p>Thank you for visiting our donations page.</p>
+      <h3>We're working on it.</h3>
+      <h4>We'll inform you when it's done.</h4>
+      <p>Thank you for visiting.</p>
     </Home>
   );
 }

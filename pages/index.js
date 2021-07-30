@@ -14,6 +14,9 @@ function main() {
             <h3>
                 <Link href="short-shortnner/"> Introducing Short Shortnner </Link>{" "}
             </h3>
+               <h3>
+                <Link href="why/">Why Us? </Link>{" "}
+            </h3>
             <h3>
                 <Link href="pricing/"> Short Shortnner Pricing </Link>{" "}
             </h3>
@@ -27,7 +30,7 @@ function main() {
                 <Link href="newsletter/"> Subscribe to our newsletter </Link>{" "}
             </h3>{" "}
             <h3>
-                <Link href="donation/"> Working on our donation page </Link>{" "}
+                <Link href="pro/">Shortnner Business Pro</Link>{" "}
             </h3>
             <h3>
                 <Link href="privacy/">Our Privacy Policy</Link>{" "}

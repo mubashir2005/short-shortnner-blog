@@ -18,8 +18,14 @@ function pricing() {
       <p>So, what are you waiting for? Get started for free!</p>
       <h3>
         {" "}
-        <a href="https://short-shortnner.vercel.app/">Back to Site</a>
+        <a href="https://shortnner.tech/">Back to Site</a>
       </h3>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <h4>We're planning to make a Shortnner Pro which will be a paid solution to trcaking URLs or tracking by URLs.</h4>
+      <p>Our free version will always remain free without limits.</p>  
     </Home>
   );
 }

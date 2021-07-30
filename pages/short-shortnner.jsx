@@ -2,7 +2,7 @@ import React from "react";
 import Head from "next/head";
 import Home from "../components/home";
 
-function Short Shortnner() {
+function Shortnner() {
   return (
     <Home>
       <Head>
@@ -28,4 +28,4 @@ function Short Shortnner() {
   );
 }
 
-export default ShortShortner;
+export default Shortnner;
